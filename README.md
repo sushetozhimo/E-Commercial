@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TechStore - Premium E-commerce Interface
 
-## Getting Started
+A professional, clean, and user-friendly e-commerce frontend built with Next.js 16 and Tailwind CSS 4. This project focuses on high-quality UI/UX, smooth navigation, and client-side interactivity.
 
-First, run the development server:
+## 🚀 Features
 
+- **Dynamic Hero Carousel**: Visually engaging slides with auto-play and manual controls.
+- **Interactive Product Grid**: Filterable product list with "Add to Cart" and wishlist functionality.
+- **Real-time Search**: Instant product filtering by name, category, or description.
+- **Smart Navigation**: Smooth scrolling to Home, Products, and My Orders sections.
+- **Slide-out Shopping Cart**: Full cart management (add, remove, quantity) with dynamic subtotal.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop viewing.
+- **Newsletter Subscription**: Professional subscription section with UI validation.
+
+## 🛠 Tech Stack
+
+- **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Language**: JavaScript (React 19)
+- **Deployment**: [Replit](https://replit.com)
+
+## 📦 Getting Started
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+
+Run the development server:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev -- -p 5000 -H 0.0.0.0
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be accessible at `http://0.0.0.0:5000` or via your Replit proxy URL.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/` - Next.js App Router pages and layouts.
+- `components/` - Reusable UI components.
+- `constants.js` - Static data for products, categories, and hero slides.
+- `public/` - Static assets like images and icons.
 
-## Learn More
+## 📄 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
